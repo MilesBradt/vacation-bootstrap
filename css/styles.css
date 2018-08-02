@@ -1,0 +1,27 @@
+h1.jumbotron{
+  text-align: center;
+  -webkit-stroke
+  background-color: #c5e3ed;
+}
+
+body{
+  background-color: #deeff5;
+}
+
+img#header-image{
+  display: flex;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+img.packages:hover{
+  transform: scale(1.1);
+  padding: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 2560px)  {
+  img.packages{
+    width: 100%;
+    height: 100%;
+  }
+}
